@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4627DBBE147F2F6000586736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4627DBBD147F2F6000586736 /* UIKit.framework */; };
+		4627DBC0147F2F6000586736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4627DBBF147F2F6000586736 /* Foundation.framework */; };
+		4627DBC2147F2F6000586736 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4627DBC1147F2F6000586736 /* CoreGraphics.framework */; };
+		4627DBC8147F2F6000586736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4627DBC6147F2F6000586736 /* InfoPlist.strings */; };
+		4627DBCA147F2F6000586736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4627DBC9147F2F6000586736 /* main.m */; };
+		4627DBCE147F2F6000586736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4627DBCD147F2F6000586736 /* AppDelegate.m */; };
+		4627DBD7147F2FA800586736 /* CircleCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4627DBD6147F2FA800586736 /* CircleCounterView.m */; };
+		4627DBDA147F3AF400586736 /* CircleDownCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4627DBD9147F3AF400586736 /* CircleDownCounter.m */; };
+		4627DBDE147F462E00586736 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4627DBDC147F462E00586736 /* DemoViewController.m */; };
+		4627DBDF147F462E00586736 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4627DBDD147F462E00586736 /* DemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4627DBB9147F2F6000586736 /* CircleCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleCountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4627DBBD147F2F6000586736 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4627DBBF147F2F6000586736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4627DBC1147F2F6000586736 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4627DBC5147F2F6000586736 /* CircleCountDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleCountDown-Info.plist"; sourceTree = "<group>"; };
+		4627DBC7147F2F6000586736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4627DBC9147F2F6000586736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4627DBCB147F2F6000586736 /* CircleCountDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleCountDown-Prefix.pch"; sourceTree = "<group>"; };
+		4627DBCC147F2F6000586736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4627DBCD147F2F6000586736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4627DBD5147F2FA800586736 /* CircleCounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCounterView.h; sourceTree = "<group>"; };
+		4627DBD6147F2FA800586736 /* CircleCounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCounterView.m; sourceTree = "<group>"; };
+		4627DBD8147F3AF400586736 /* CircleDownCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDownCounter.h; sourceTree = "<group>"; };
+		4627DBD9147F3AF400586736 /* CircleDownCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDownCounter.m; sourceTree = "<group>"; };
+		4627DBDB147F462E00586736 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		4627DBDC147F462E00586736 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		4627DBDD147F462E00586736 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4627DBB6147F2F6000586736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4627DBBE147F2F6000586736 /* UIKit.framework in Frameworks */,
+				4627DBC0147F2F6000586736 /* Foundation.framework in Frameworks */,
+				4627DBC2147F2F6000586736 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4627DBAE147F2F6000586736 = {
+			isa = PBXGroup;
+			children = (
+				4627DBD4147F2F7700586736 /* CircleCountDown */,
+				4627DBC3147F2F6000586736 /* CircleCountDownDemo */,
+				4627DBBC147F2F6000586736 /* Frameworks */,
+				4627DBBA147F2F6000586736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4627DBBA147F2F6000586736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4627DBB9147F2F6000586736 /* CircleCountDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4627DBBC147F2F6000586736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4627DBBD147F2F6000586736 /* UIKit.framework */,
+				4627DBBF147F2F6000586736 /* Foundation.framework */,
+				4627DBC1147F2F6000586736 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4627DBC3147F2F6000586736 /* CircleCountDownDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4627DBCC147F2F6000586736 /* AppDelegate.h */,
+				4627DBCD147F2F6000586736 /* AppDelegate.m */,
+				4627DBC4147F2F6000586736 /* Supporting Files */,
+				4627DBDB147F462E00586736 /* DemoViewController.h */,
+				4627DBDC147F462E00586736 /* DemoViewController.m */,
+				4627DBDD147F462E00586736 /* DemoViewController.xib */,
+			);
+			name = CircleCountDownDemo;
+			path = CircleCountDown;
+			sourceTree = "<group>";
+		};
+		4627DBC4147F2F6000586736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4627DBC5147F2F6000586736 /* CircleCountDown-Info.plist */,
+				4627DBC6147F2F6000586736 /* InfoPlist.strings */,
+				4627DBC9147F2F6000586736 /* main.m */,
+				4627DBCB147F2F6000586736 /* CircleCountDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4627DBD4147F2F7700586736 /* CircleCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				4627DBD5147F2FA800586736 /* CircleCounterView.h */,
+				4627DBD6147F2FA800586736 /* CircleCounterView.m */,
+				4627DBD8147F3AF400586736 /* CircleDownCounter.h */,
+				4627DBD9147F3AF400586736 /* CircleDownCounter.m */,
+			);
+			name = CircleCountDown;
+			path = CircleCountDown/CircleCountDown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4627DBB8147F2F6000586736 /* CircleCountDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4627DBD1147F2F6000586736 /* Build configuration list for PBXNativeTarget "CircleCountDown" */;
+			buildPhases = (
+				4627DBB5147F2F6000586736 /* Sources */,
+				4627DBB6147F2F6000586736 /* Frameworks */,
+				4627DBB7147F2F6000586736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleCountDown;
+			productName = CircleCountDown;
+			productReference = 4627DBB9147F2F6000586736 /* CircleCountDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4627DBB0147F2F6000586736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = DEV;
+			};
+			buildConfigurationList = 4627DBB3147F2F6000586736 /* Build configuration list for PBXProject "CircleCountDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4627DBAE147F2F6000586736;
+			productRefGroup = 4627DBBA147F2F6000586736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4627DBB8147F2F6000586736 /* CircleCountDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4627DBB7147F2F6000586736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4627DBC8147F2F6000586736 /* InfoPlist.strings in Resources */,
+				4627DBDF147F462E00586736 /* DemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4627DBB5147F2F6000586736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4627DBCA147F2F6000586736 /* main.m in Sources */,
+				4627DBCE147F2F6000586736 /* AppDelegate.m in Sources */,
+				4627DBD7147F2FA800586736 /* CircleCounterView.m in Sources */,
+				4627DBDA147F3AF400586736 /* CircleDownCounter.m in Sources */,
+				4627DBDE147F462E00586736 /* DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4627DBC6147F2F6000586736 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4627DBC7147F2F6000586736 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4627DBCF147F2F6000586736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4627DBD0147F2F6000586736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4627DBD2147F2F6000586736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleCountDown/CircleCountDown-Prefix.pch";
+				INFOPLIST_FILE = "CircleCountDown/CircleCountDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4627DBD3147F2F6000586736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleCountDown/CircleCountDown-Prefix.pch";
+				INFOPLIST_FILE = "CircleCountDown/CircleCountDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4627DBB3147F2F6000586736 /* Build configuration list for PBXProject "CircleCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4627DBCF147F2F6000586736 /* Debug */,
+				4627DBD0147F2F6000586736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4627DBD1147F2F6000586736 /* Build configuration list for PBXNativeTarget "CircleCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4627DBD2147F2F6000586736 /* Debug */,
+				4627DBD3147F2F6000586736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4627DBB0147F2F6000586736 /* Project object */;
+}
