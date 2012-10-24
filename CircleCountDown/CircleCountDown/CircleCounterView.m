@@ -50,8 +50,6 @@
     self.circleColor = nil;
     self.circleBorderWidth = 0;
     self.timeFormatString = nil;
-    
-    [super dealloc];
 }
 
 - (void)drawRect:(CGRect)rect {

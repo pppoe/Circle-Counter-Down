@@ -39,7 +39,6 @@ static CircleDownCounter *sharedDownCounter = nil;
     CircleCounterView *circleView = [[CircleCounterView alloc] initWithFrame:[self frameOfCircleViewOfSize:size 
                                                                                                     inView:view]];
     [view addSubview:circleView];
-    [circleView release];
     
     circleView.delegate = [self circleDownCounter];
     

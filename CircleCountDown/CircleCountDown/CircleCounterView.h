@@ -39,7 +39,7 @@
     BOOL mCircleIncre;          //< Default NO, the circle is drawed incrementally, otherwise decrementally
 }
 
-@property (nonatomic, assign) id<CircleCounterViewDelegate> delegate;
+@property (nonatomic) id<CircleCounterViewDelegate> delegate;
 
 @property (nonatomic, assign) BOOL circleIncre;
 
